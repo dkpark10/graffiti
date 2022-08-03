@@ -1,0 +1,16 @@
+{
+  "name": "inflearn_front_dkpark",
+  "author": "박도균",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "live-server --port=5500"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.0.3"
+  }
+}
