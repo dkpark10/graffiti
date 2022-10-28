@@ -1,0 +1,79 @@
+@mixin hub-padding {
+  padding: 0 5vw;
+}
+
+@mixin mob-hub-padding {
+  padding: 0 3vw;
+}
+
+@mixin top-bottom-border-line {
+  border-bottom: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+}
+
+@mixin flex-justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin flex-center {
+  @include flex-justify-content-center;
+  align-items: center;
+}
+
+@mixin flex-align-items-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin inline-flex-center {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+@mixin flex-space-evenly {
+  display: flex;
+  justify-content: space-evenly
+}
+
+@mixin flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin flex-space-between-align-center {
+  @include flex-space-between;
+  align-items: center;
+}
+
+@mixin absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin hub-setion-wrapper {
+  padding: 2vh 3vw;
+  margin-top: 10px;
+}
+
+@mixin word-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin margin-y-axis {
+  margin: 10px 0;
+}
+
+@mixin date {
+  font-size: 0.75rem;
+  color: $light-font-color;
+}

@@ -1,0 +1,26 @@
+<template>
+  <div class="font_louder" />
+</template>
+
+<script lang="ts">
+import { defineComponent } from "vue";
+
+export default defineComponent({
+  name: "font-smaller-component",
+});
+</script>
+
+<style lang="scss" scoped>
+.font_louder {
+  background: url("https://m.hub.zum.com/resources/build/mobile/images/spr_footer_191212.png?v=1661217438830")
+    no-repeat;
+  background-size: 30px 55px;
+}
+
+.font_louder {
+  width: 22px;
+  height: 12px;
+  background-position: 0 -23px;
+  opacity: 0.5;
+}
+</style>
